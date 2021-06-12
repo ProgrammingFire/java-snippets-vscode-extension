@@ -1,6 +1,8 @@
 {
   "name": "java-snippets",
+  "icon": "logo.png",
   "publisher": "programmingfire",
+  "repository": "https://github.com/programmingfire/java-snippets-vscode-extension",
   "displayName": "Java Snippets ",
   "description": "This Is Very Amazing And Useful Snippets For You If You Write Code In Java This Extension Will Make You Code Faster In Java",
   "version": "0.0.1",
