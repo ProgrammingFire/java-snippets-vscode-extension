@@ -1,0 +1,21 @@
+{
+  "name": "java-snippets",
+  "publisher": "programmingfire",
+  "displayName": "Java Snippets ",
+  "description": "This Is Very Amazing And Useful Snippets For You If You Write Code In Java This Extension Will Make You Code Faster In Java",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "java",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

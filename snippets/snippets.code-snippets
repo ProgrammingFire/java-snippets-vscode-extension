@@ -1,0 +1,66 @@
+{
+  "Print To Console With New Line": {
+    "prefix": "println",
+    "body": ["System.out.println($1);"],
+    "description": "Output On Console With New Line"
+  },
+  "Print To Console": {
+    "prefix": "print",
+    "body": ["System.out.print($1);"],
+    "description": "Output On Console"
+  },
+  "Print To Console With C Language Style": {
+    "prefix": "printf",
+    "body": ["System.out.printf($1);"],
+    "description": "Output On Console With C Language Style"
+  },
+  "Print To Console With Format Way": {
+    "prefix": "format",
+    "body": ["System.out.format($1);"],
+    "description": "Output On Console With Format Way"
+  },
+  "Main Class": {
+    "prefix": "public-class",
+    "body": [
+      "public class $TM_FILENAME_BASE {",
+      "\t// Enter Your Methods Here$2",
+      "}"
+    ],
+    "description": "Main Class Where Our File Code Starts"
+  },
+  "Main Method": {
+    "prefix": "main",
+    "body": [
+      "public static void main(String[] args) {",
+      "\t// Enter Your Code Here$2",
+      "}"
+    ],
+    "description": "Main Method Where Our Code Execute"
+  },
+  "Package": {
+    "prefix": "package",
+    "body": "package com.company;",
+    "description": "Create A Package"
+  },
+  "Single Line Comment": {
+    "prefix": "comment",
+    "body": "// Single Line Comment",
+    "description": "Create A Comment That Will Be Ignored"
+  },
+  "Multi Line Comment": {
+    "prefix": "multicomment",
+    "body": ["/*", "\tMulti Line Comment$2", "*/"],
+    "description": "Create A Mulit Line Comment That Will Be Ignored"
+  },
+  "Hello World": {
+    "prefix": ["helloworld", "hello-world", "hello"],
+    "body": [
+      "public class $TM_FILENAME_BASE {",
+      "\tpublic static void main(String[] args){",
+      "\t\tSystem.out.println(\"Hello, World\");",
+      "\t}",
+      "}"
+    ],
+    "description": "Create A Simple Hello, World! Program"
+  }
+}
